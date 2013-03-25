@@ -351,7 +351,7 @@ a.print-view {
 
 .calendar-Item {
 	background-color:#FFFFFF;
-	border: 1px solid #89A2B3;
+	/* border: 1px solid #89A2B3;*/
 	opacity:.9; 
 }
 
