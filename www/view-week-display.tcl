@@ -18,6 +18,8 @@ set previous_intervals [list]
 set adjusted_start_display_hour 9
 set adjusted_end_display_hour 21
 
+if { ![info exists calendar_url] } { set calendar_url "" } 
+
 for {set i 0} {$i < 10} {incr i} {
     #defaults
     set day_width_$i $day_width
