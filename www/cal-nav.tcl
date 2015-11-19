@@ -30,7 +30,7 @@ if {$date == "now"} {
 
 if {[llength $calendar_list] == 0} {
 
-    set pass_in_vars "[export_url_vars calendar_id]"
+    set pass_in_vars "[export_vars -url { calendar_id}]"
 
 } else {
 
