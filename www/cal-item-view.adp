@@ -1,13 +1,13 @@
 <master>
-<property name="title">#calendar.Calendar_Item#: @cal_item.name;noquote@</property>
+<property name="doc(title)">#calendar.Calendar_Item#: @cal_item.name;noquote@</property>
 <property name="context">#calendar.Item#</property>
-<property name="displayed_object_id">@cal_item_id@</property>
+<property name="displayed_object_id">@cal_item_id;literal@</property>
 
 
 
 
 <div id="viewadp-mini-calendar">
-  <include src="mini-calendar" base_url="view" view="day" date="@date@">
+  <include src="mini-calendar" base_url="view" view="day" date="@date;literal@">
   <include src="cal-options">	
 </div>	
 
@@ -39,7 +39,7 @@
                       <strong>#calendar.RelatedLink#:</strong>
                     </div>
                     <div class="form-widget">                  
-                      <a href="@cal_item.related_link_url;noquote@" title="@cal_item.related_link_text@">
+                      <a href="@cal_item.related_link_url@" title="@cal_item.related_link_text@">
                         @cal_item.related_link_text@
                       </a>
                     </div>  

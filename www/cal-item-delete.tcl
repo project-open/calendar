@@ -4,9 +4,9 @@ ad_page_contract {
     @author Ben Adida (ben@openforce.net)
     @creation-date 2002-06-02
 } {
-    cal_item_id:integer,notnull
+    cal_item_id:naturalnum,notnull
     {return_url "view"}
-    {confirm_p 0}
+    {confirm_p:boolean 0}
 }
 
 permission::require_permission -object_id $cal_item_id -privilege delete
