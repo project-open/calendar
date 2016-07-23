@@ -56,11 +56,11 @@
   <msg key="lt_Are_you_sure_you_want">Wollen Sie diesen Kalender wirklich löschen? Alle Einträge und die mit dem Kalender verbundenen Berechtigungen werden dann ebenfalls gelöscht.</msg>
   <msg key="lt_Are_you_sure_you_want_1">Wollen Sie dieses Ereignis wirklich löschen?</msg>
   <msg key="lt_Audiences_for_calenda">Zielgruppen für Kalender</msg>
-  <msg key="lt_Calendar_Administrati">Kalender verwalten</msg>
-  <msg key="lt_Calendar_Administrati_1">Kalender verwalten für Benutzer</msg>
+  <msg key="lt_Calendar_Administrati">Admin Kalender</msg>
+  <msg key="lt_Calendar_Administrati_1">Admin Benutzer Kalender</msg>
   <msg key="lt_Calendar_Choose_Calen">Kalender: Kalender auswählen</msg>
   <msg key="lt_Calendar_detail_listi">Details für Kalender: Alle Angaben über den einzelnen Kalender anzeigen</msg>
-  <msg key="lt_Calendar_Item_Adminis">Kalendereinträge verwalten</msg>
+  <msg key="lt_Calendar_Item_Adminis">Admin Kalendereinträge</msg>
   <msg key="lt_Calendar_Item_Permiss">&#34;Berechtigungen für Kalendereinträge&#34;</msg>
   <msg key="lt_Calendars_Repeating_E">Kalender: Wiederkehrendes Ereignis</msg>
   <msg key="lt_Create_a_new_calendar">Neuen Kalender erstellen</msg>
