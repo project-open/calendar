@@ -21,9 +21,9 @@
   <msg key="Calendar_Item_Delete">Kalender innlegg slett</msg>
   <msg key="Calendar_Item_Types">Kalender innleggstyper</msg>
   <msg key="Calendar_Name">Kalender navn</msg>
-  <msg key="Calendar_Permissions">&quot;Kalender tillatelser&quot;</msg>
+  <msg key="Calendar_Permissions">&#34;Kalender tillatelser&#34;</msg>
   <msg key="Calendar_Permissions_1">Kalender tillatelser</msg>
-  <msg key="Calendar_Preferences">&quot;Kalender valg&quot;</msg>
+  <msg key="Calendar_Preferences">&#34;Kalender valg&#34;</msg>
   <msg key="Calendars">Kalendere</msg>
   <msg key="Choose">Velg</msg>
   <msg key="Current_Permissions">Nåværtende tillatelser</msg>
@@ -55,7 +55,7 @@
   <msg key="lt_Calendar_Choose_Calen">Kalender: Velg kalender</msg>
   <msg key="lt_Calendar_detail_listi">Kalender detalj: lister all informasjon om den individuelle kalenderen</msg>
   <msg key="lt_Calendar_Item_Adminis">Kalenderinnleggsadministrasjon</msg>
-  <msg key="lt_Calendar_Item_Permiss">&quot;Kalenderinnleggstillatelser&quot;</msg>
+  <msg key="lt_Calendar_Item_Permiss">&#34;Kalenderinnleggstillatelser&#34;</msg>
   <msg key="lt_Calendars_Repeating_E">Kalendere: Repeterende innlegg</msg>
   <msg key="lt_Create_a_new_calendar">Lag ny kalender</msg>
   <msg key="lt_delete_all_occurrence">Slett alle gjentakelser</msg>

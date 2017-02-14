@@ -22,9 +22,9 @@
   <msg key="Calendar_Item_Delete">Gebeurtenis verwijderen</msg>
   <msg key="Calendar_Item_Types">Gebeurteniscategoriën</msg>
   <msg key="Calendar_Name">Kalendernaam</msg>
-  <msg key="Calendar_Permissions">&quot;Kalenderrechten&quot;</msg>
+  <msg key="Calendar_Permissions">&#34;Kalenderrechten&#34;</msg>
   <msg key="Calendar_Permissions_1">Kalenderrechten</msg>
-  <msg key="Calendar_Preferences">&quot;Kalender voorkeuren&quot;</msg>
+  <msg key="Calendar_Preferences">&#34;Kalender voorkeuren&#34;</msg>
   <msg key="Calendars">Kalenders</msg>
   <msg key="Choose">Kiezen</msg>
   <msg key="Current_Permissions">Huidige rechten</msg>
@@ -66,7 +66,7 @@ Alle gebeurtenissen en alle rechten die met deze kalender zijn verbonden zullen 
   <msg key="lt_Calendar_Choose_Calen">Kalender: kalender kiezen</msg>
   <msg key="lt_Calendar_detail_listi">Kalender detail: alle informatie over de persoonlijke kalender</msg>
   <msg key="lt_Calendar_Item_Adminis">Gebeurtenis administratie</msg>
-  <msg key="lt_Calendar_Item_Permiss">&quot;Rechten van gebeurtenissen&quot;</msg>
+  <msg key="lt_Calendar_Item_Permiss">&#34;Rechten van gebeurtenissen&#34;</msg>
   <msg key="lt_Calendars_Repeating_E">Kalenders: repeterende gebeurtenis</msg>
   <msg key="lt_Create_a_new_calendar">Nieuwe kalender aanmaken </msg>
   <msg key="lt_delete_all_occurrence">alle voorkomende gevallen verwijderen</msg>
@@ -81,24 +81,24 @@ Alle gebeurtenissen en alle rechten die met deze kalender zijn verbonden zullen 
         &lt;/if&gt;
 
         &lt;else&gt;
-          &lt;tr class=&quot;days&quot;&gt;
-            &lt;multiple name=&quot;days_of_week&quot;&gt;
+          &lt;tr class=&#34;days&#34;&gt;
+            &lt;multiple name=&#34;days_of_week&#34;&gt;
               &lt;td&gt;%days_of_week.day_short%&lt;/td&gt;
             &lt;/multiple&gt;
           &lt;/tr&gt;
       
-          &lt;multiple name=&quot;days&quot;&gt;
+          &lt;multiple name=&#34;days&#34;&gt;
             &lt;if %days.beginning_of_week_p% true&gt;
               &lt;tr&gt;
             &lt;/if&gt;
         
             &lt;if %days.active_p% true&gt;
               &lt;if %days.today_p% true&gt;
-                &lt;td class=&quot;today&quot; onclick=&quot;javascript:location.href='%days.url%'&quot;&gt;
-                  &lt;a href=&quot;%days.url&quot; title=&quot;&lt;#_ Go to %month_name% %days.day_number%, %year%</msg>
+                &lt;td class=&#34;today&#34; onclick=&#34;javascript:location.href=&#39;%days.url%&#39;&#34;&gt;
+                  &lt;a href=&#34;%days.url&#34; title=&#34;&lt;#_ Go to %month_name% %days.day_number%, %year%</msg>
   <msg key="lt_Hide_Checked_Calendar">Gemarkeerde kalenders verbergen </msg>
   <msg key="lt_Manage_Calendar_Audie">Publiek van kalender beheren </msg>
-  <msg key="lt_no_parties_exist_cont">er zijn geen 'parties' gevonden. Neem contact op met de systeembeheerder.</msg>
+  <msg key="lt_no_parties_exist_cont">er zijn geen &#39;parties&#39; gevonden. Neem contact op met de systeembeheerder.</msg>
   <msg key="lt_no_privilege_exist_co">er zijn geen rechten beschikbaar. Neem contact op met de systeembeheerder.</msg>
   <msg key="lt_no_privilege_has_been">er zijn geen rechten toegekend</msg>
   <msg key="lt_only_those_you_choose">de gebeurtenissen op de kalender zijn alleen te zien voor degenen die hiervoor expliciete toestemming hebben gekregen.</msg>
