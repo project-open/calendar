@@ -40,8 +40,10 @@
   <msg key="End_Time">Koniec</msg>
   <msg key="Friday">Piątek</msg>
   <msg key="from">z</msg>
+  <msg key="goto_weekday">Idź do %days_of_week.day_short% %days_of_week.monthday%</msg>
   <msg key="Grant">Przyznaj</msg>
   <msg key="Grant_Permissions">Przyznaj Prawa</msg>
+  <msg key="Hours">Godziny</msg>
   <msg key="is_recurring">Wpis jest powtarzalny.</msg>
   <msg key="Item">Termin</msg>
   <msg key="lt_Are_you_sure_you_want">Czy na pewno usunąć ten kalendarz? Wszystkie terminy i prawa z nimi związane zostaną usunięte wraz z nim.</msg>
@@ -74,6 +76,7 @@
   <msg key="lt_You_have_no_party_wid">Nie masz ogólnych kalendarzy</msg>
   <msg key="Monday">Poniedziałek</msg>
   <msg key="New_Type">Nowy Typ:</msg>
+  <msg key="next_week">Następny tydzień</msg>
   <msg key="No">Nie</msg>
   <msg key="No_Calendars">Brak Kalendarzy</msg>
   <msg key="No_Items">Brak wpisów</msg>
@@ -81,6 +84,7 @@
   <msg key="Note">Uwaga</msg>
   <msg key="of_the_month">miesiąca</msg>
   <msg key="of_the_week">tygodnia</msg>
+  <msg key="prev_week">Poprzedni tydzień</msg>
   <msg key="Private">Prywatne:</msg>
   <msg key="private">prywatne</msg>
   <msg key="Public">Publiczne:</msg>
@@ -108,6 +112,7 @@
   <msg key="Type_1">Typ</msg>
   <msg key="Use_Hours_Below">Użyj godzin poniżej:</msg>
   <msg key="Wednesday">Środa</msg>
+  <msg key="Week_of">Tydzień</msg>
   <msg key="year">rok</msg>
   <msg key="Yes">Tak</msg>
   <msg key="yes_delete_it">tak, uswaj</msg>
