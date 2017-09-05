@@ -14,7 +14,9 @@
   <msg key="Add_Recurrence">Repeterend toevoegen</msg>
   <msg key="All_Day_Event">Gebeurtenis op de gehele dag</msg>
   <msg key="all_events">alle gebeurtenissen</msg>
+  <msg key="All_Past_and_Future_Events">Alle vorige en toekomstige gebeurtenissen</msg>
   <msg key="and_Time">en tijd</msg>
+  <msg key="Apply_Changes_to">Pas wijzigingen toe op</msg>
   <msg key="Apply_to_all">Op alle gebeurtenissen toepassen</msg>
   <msg key="Attachments">Bijlagen:</msg>
   <msg key="Audiences_for_item">Publiek voor gebeurtenis %cal_item_name%</msg>
@@ -167,6 +169,8 @@ Alle gebeurtenissen en alle rechten die met deze kalender zijn verbonden zullen 
   <msg key="Submit_query">Vraag indienen</msg>
   <msg key="Sunday">zondag</msg>
   <msg key="sync_with_Outlook">Synchroniseren met Outlook</msg>
+  <msg key="This_and_All_Future_Events">Deze en alle toekomstige gebeurtenissen</msg>
+  <msg key="This_Event">Deze gebeurtenis</msg>
   <msg key="Thursday">donderdag</msg>
   <msg key="Time">Tijd:</msg>
   <msg key="Time_1">Tijd</msg>
