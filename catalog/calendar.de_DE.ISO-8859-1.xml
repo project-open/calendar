@@ -9,7 +9,7 @@
 </msg>
   <msg key="add_an_event">Neuen Eintrag hinzufügen</msg>
   <msg key="Add_an_item">Einen Eintrag hinzufügen</msg>
-  <msg key="Add_an_Item_Type">Element Typ hinzufügen</msg>
+  <msg key="Add_an_Item_Type">Elementtyp hinzufügen</msg>
   <msg key="Add_Item">Eintrag hinzufügen</msg>
   <msg key="Add_item_beginning_at">Neuen Eintrag hinzufügen</msg>
   <msg key="Add_Recurrence">OK</msg>
@@ -24,7 +24,7 @@
   <msg key="Calendar">Kalender</msg>
   <msg key="Calendar_Add_Item">Kalender: Eintrag hinzufügen</msg>
   <msg key="Calendar_Edit_Item">Kalender: Eintrag bearbeiten</msg>
-  <msg key="calendar_event_details">Event Details</msg>
+  <msg key="calendar_event_details">Event-Details</msg>
   <msg key="Calendar_Item">Kalendereintrag</msg>
   <msg key="Calendar_Item_Delete">Kalendereintrag löschen</msg>
   <msg key="Calendar_Item_Types">Eintragskategorien für Kalender</msg>
@@ -35,7 +35,7 @@
   <msg key="Calendars">Kalender</msg>
   <msg key="Choose">Auswählen</msg>
   <msg key="Close_Window">Fenster schließen</msg>
-  <msg key="Current_Permissions">Derzeitige Berechtigungen</msg>
+  <msg key="Current_Permissions">Aktuelle Berechtigungen</msg>
   <msg key="Date">Datum:</msg>
   <msg key="Date_1">Datum</msg>
   <msg key="Day">Tag</msg>
@@ -45,12 +45,12 @@
   <msg key="days">tage</msg>
   <msg key="Delete">Löschen</msg>
   <msg key="delete">Löschen</msg>
-  <msg key="Description">Anmerkung</msg>
-  <msg key="Details">Anmerkung:</msg>
+  <msg key="Description">Beschreibung</msg>
+  <msg key="Details">Details</msg>
   <msg key="developer_note_calendar_add">Hinweis: Die Erstellung eines neuen Kalenders erfolgt in drei Schritten: &lt;ol&gt; &lt;li&gt; Geben Sie einen Namen für den Kalender ein und ändern Sie falls nötig die Standardberechtigungen. &lt;li&gt; Wählen Sie Gruppen und/oder einzelne Benutzer als Zielgruppe aus. &lt;li&gt; Erteilen Sie nach Bedarf gruppen- oder benutzerspezifische Berechtigungen.&lt;/ol&gt;  </msg>
   <msg key="Edit">Bearbeiten</msg>
   <msg key="edit">Bearbeiten</msg>
-  <msg key="End_Time">Endet</msg>
+  <msg key="End_Time">Endzeit</msg>
   <msg key="Event">Event</msg>
   <msg key="Events">Events</msg>
   <msg key="events_over_1d">Events für heute anzeigen</msg>
@@ -114,7 +114,7 @@
   <msg key="lt_You_are_choosing_to_m">Hier legen Sie die Kriterien für die Wiederholung des Ereignisses fest:</msg>
   <msg key="lt_You_can_manage_the_fo">Sie können folgende Kalender verwalten:</msg>
   <msg key="lt_You_have_no_party_wid">You have no party wide calendars</msg>
-  <msg key="Manage_Item_Types">Element Typen verwalten</msg>
+  <msg key="Manage_Item_Types">Element-Typen verwalten</msg>
   <msg key="Monday">Montag</msg>
   <msg key="Month">Monat</msg>
   <msg key="New_Type">Neuer Typ:</msg>
