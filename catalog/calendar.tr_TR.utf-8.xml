@@ -21,9 +21,9 @@
   <msg key="Calendar_Item_Delete">Takvimden Konu Sil</msg>
   <msg key="Calendar_Item_Types">Takvim Konu Turleri</msg>
   <msg key="Calendar_Name">Takvim Adi</msg>
-  <msg key="Calendar_Permissions">&#34;Takvim Izinleri&#34;</msg>
+  <msg key="Calendar_Permissions">&quot;Takvim Izinleri&quot;</msg>
   <msg key="Calendar_Permissions_1">Takvim Izinleri</msg>
-  <msg key="Calendar_Preferences">&#34;Takvim Ozellikleri&#34;</msg>
+  <msg key="Calendar_Preferences">&quot;Takvim Ozellikleri&quot;</msg>
   <msg key="Calendars">Takvimler</msg>
   <msg key="Choose">Sec</msg>
   <msg key="Current_Permissions">Gecerli Izinler</msg>
@@ -44,7 +44,7 @@
   <msg key="lt_Calendar_Administrati_1">Kullanicilar icin Takvim Yoneticisi</msg>
   <msg key="lt_Calendar_Choose_Calen">Takvim: Takvim Sec</msg>
   <msg key="lt_Calendar_Item_Adminis">Takvim Konu Yoneticisi</msg>
-  <msg key="lt_Calendar_Item_Permiss">&#34;Takvim Konu Izinleri&#34;</msg>
+  <msg key="lt_Calendar_Item_Permiss">&quot;Takvim Konu Izinleri&quot;</msg>
   <msg key="lt_Create_a_new_calendar">Yeni bir takvim yarat</msg>
   <msg key="lt_Edit_your_Calendar_Pr">Takvim Ozelliklerini Duzenleyin</msg>
   <msg key="lt_Hide_Checked_Calendar">Secili Takvimi Gizle</msg>

@@ -1,12 +1,12 @@
 
 ad_page_contract {
-    delete all occurences of a recurring item
+    delete all occurrences of a recurring item
     
     @author Ben Adida (ben@openforce.net)
     @creation-date April 25, 2002
 } {
     recurrence_id:naturalnum,notnull
-    {return_url "./"}
+    {return_url:localurl "./"}
 }
 
 calendar::item::delete_recurrence -recurrence_id $recurrence_id

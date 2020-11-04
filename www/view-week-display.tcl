@@ -1,7 +1,6 @@
 #Expects:
 #  date (required but empty string okay): YYYY-MM-DD
 #  show_calendar_name_p (optional): 0 or 1
-#  base_url
 
 #Display constants, should match up with default styles in calendar.css.
 set day_width 70
@@ -25,8 +24,6 @@ for {set i 0} {$i < 10} {incr i} {
 }
 
 set current_date $date
-if {![info exists base_url]} { set base_url "" }
-
 
 if { ![info exists show_calendar_name_p] } {
     set show_calendar_name_p 1
@@ -39,7 +36,7 @@ if {([info exists calendar_id_list] && $calendar_id_list ne "")} {
 }
 
 if {$date eq ""} {
-    # Default to todays date in the users (the connection) timezone
+    # Default to today's date in the users (the connection) timezone
     set server_now_time [dt_systime]
     set user_now_time [lc_time_system_to_conn $server_now_time]
     set date [lc_time_fmt $user_now_time "%x"]
@@ -216,7 +213,7 @@ db_foreach dbqd.calendar.www.views.select_items {} {
         $start_time \
         $end_time \
         $no_time_p \
-        "$base_url?[export_vars {{view day} {date ansi_start_date} page_num}]" \
+        ?[export_vars {{view day} {date ansi_start_date} page_num}] \
         [export_vars -base ${calendar_url}cal-item-new {{date $ansi_this_date} {start_time ""} {end_time ""}}] \
         "calendar-Item" \
         $top \
@@ -250,10 +247,9 @@ for {set i 1} {$i <= $num_items } {incr i} {
 # Navigation Bar
 set dates "[lc_time_fmt $first_weekday_date "%q"] - [lc_time_fmt $last_weekday_date "%q"]"
 set prev_date_ansi [ad_urlencode [dt_julian_to_ansi [expr {$first_weekday_julian - 7}]]]
-set previous_week_url "$base_url?[export_vars {page_num {view week} {date $prev_date_ansi}}]\#calendar"
+set previous_week_url ?[export_vars {page_num {view week} {date $prev_date_ansi}}]\#calendar
 set next_date_ansi [ad_urlencode [dt_julian_to_ansi [expr {$first_weekday_julian + 7}]]]
-set next_week_url "$base_url?[export_vars {page_num {view week} {date $next_date_ansi}}]\#calendar"
-
+set next_week_url ?[export_vars {page_num {view week} {date $next_date_ansi}}]\#calendar
 
 #Calendar grid.
 set grid_start $adjusted_start_display_hour
@@ -288,7 +284,7 @@ for {set i 0} {$i < 7} {incr i} {
     set trimmed_month [string trimleft [clock format $weekday_secs -format "%m"] 0]
     set trimmed_day   [string trimleft [clock format $weekday_secs -format "%d"] 0]
     set weekday_date  [clock format $weekday_secs -format "%Y-%m-%d"]
-    set weekday_url   [export_vars -base "${base_url}view" -url -entire_form {{view day} {date $weekday_date}}]
+    set weekday_url   [export_vars -base [ad_conn url] -url -entire_form {{view day} {date $weekday_date}}]
     #TODO: localize_me
     set weekday_monthday "$trimmed_month/$trimmed_day"
     set i_day [expr { ($i + $first_day_of_week) % 7 }]

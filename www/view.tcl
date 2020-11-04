@@ -7,17 +7,27 @@ ad_page_contract {
     @creation-date May 29, 2002
     @cvs-id $Id$
 } {
-    {view {[parameter::get -parameter DefaultView -default day]}}
+    {view:word {[parameter::get -parameter DefaultView -default day]}}
     {date ""}
     {sort_by ""}
     {start_date ""}
-    {period_days:integer {[parameter::get -parameter ListView_DefaultPeriodDays -default 31]}}
+    {period_days:integer,notnull {[parameter::get -parameter ListView_DefaultPeriodDays -default 31]}}
 } -validate {
+    
     valid_date -requires { date } {
         if {$date ne "" } {
-            if {[catch {set date [clock format [clock scan $date] -format "%Y-%m-%d"]} err]} {
-                ad_complain "Your input was not valid. It has to be in the form YYYYMMDD."
+            if {[catch {set date [clock format [clock scan $date -format "%Y-%m-%d"] -format "%Y-%m-%d"]} err]
+                && [catch {set date [clock format [clock scan $date  -format "%Y%m%d"] -format "%Y-%m-%d"]} err]
+            } {
+                ad_complain "Your input was not valid. It has to be in the form YYYY-MM-DD."
             }
+        }
+    }
+    
+    valid_period_days  -requires { period_days } {
+        # Tcl allows in for relative times just 6 digits, including the "+"
+        if {$period_days > 99999} {
+            ad_complain "Invalid time period."
         }
     }
 }

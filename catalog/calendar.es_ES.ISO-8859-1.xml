@@ -14,7 +14,9 @@
   <msg key="Add_Recurrence">Añadir evento periódico</msg>
   <msg key="All_Day_Event">Evento para todo el día</msg>
   <msg key="all_events">Todos los eventos</msg>
+  <msg key="All_Past_and_Future_Events">Todos los eventos pasados y futuros</msg>
   <msg key="and_Time">y hora</msg>
+  <msg key="Apply_Changes_to">Aplicar cambios a</msg>
   <msg key="Apply_to_all">Aplicar a todos los eventos</msg>
   <msg key="Attachments">Archivos adjuntos:</msg>
   <msg key="Audiences_for_item">Audiencia para el evento</msg>
@@ -174,6 +176,8 @@
   <msg key="Submit_query">Enviar solicitud</msg>
   <msg key="Sunday">Domingo</msg>
   <msg key="sync_with_Outlook">sincronizar con Outlook:</msg>
+  <msg key="This_and_All_Future_Events">Este y todos los eventos futuros</msg>
+  <msg key="This_Event">Este evento</msg>
   <msg key="Thursday">Jueves</msg>
   <msg key="Time">Hora:</msg>
   <msg key="Time_1">Hora</msg>

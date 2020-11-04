@@ -20,9 +20,9 @@
   <msg key="Calendar_Item_Delete">Poista tapahtuma kalenterista</msg>
   <msg key="Calendar_Item_Types">Kalenteritapahtumatyypit</msg>
   <msg key="Calendar_Name">Kalenterin nimi</msg>
-  <msg key="Calendar_Permissions">&#34;Kalenterin käyttöoikeudet&#34;</msg>
+  <msg key="Calendar_Permissions">&quot;Kalenterin käyttöoikeudet&quot;</msg>
   <msg key="Calendar_Permissions_1">Kalenterin käyttöoikeudet</msg>
-  <msg key="Calendar_Preferences">&#34;Kalenterin asetukset&#34;</msg>
+  <msg key="Calendar_Preferences">&quot;Kalenterin asetukset&quot;</msg>
   <msg key="Calendars">Kalenterit</msg>
   <msg key="Choose">Valitse</msg>
   <msg key="Current_Permissions">Tämänhetkiset asetukset</msg>
@@ -50,7 +50,7 @@
   <msg key="lt_Calendar_Choose_Calen">Kalenteri: Valitse kalenteri</msg>
   <msg key="lt_Calendar_detail_listi">Kalenterin tiedot: lista kaikista yksittäistä kalenteria koskevasta tiedoista</msg>
   <msg key="lt_Calendar_Item_Adminis">Tapahtuman hallinta</msg>
-  <msg key="lt_Calendar_Item_Permiss">&#34;Tapahtuman käyttöoikeudet&#34;</msg>
+  <msg key="lt_Calendar_Item_Permiss">&quot;Tapahtuman käyttöoikeudet&quot;</msg>
   <msg key="lt_Calendars_Repeating_E">Kalenterit: Toistuva tapahtuma</msg>
   <msg key="lt_Create_a_new_calendar">Luo uusi kalenteri</msg>
   <msg key="lt_delete_all_occurrence">poista kaikki esiintymät</msg>
